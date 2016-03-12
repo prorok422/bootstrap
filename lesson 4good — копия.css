@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('img/bg-slider.png');
+    padding-bottom: 50%;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.l1 {
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+}
+
+.submenu {
+    list-style-type: none;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.ava {
+    text-align: center;
+}
+
+h4 {
+    /* заголовок статьи*/
+    font-style: italic;
+    font-size: 30px;
+    -webkit-margin-before: 0.9em;
+    -webkit-margin-after: 0.6em;
+    position: relative;
+    text-align: center;
+
+}
+
+.span:before, .span:after {
+    /*разделитель*/
+    content: "  ";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    top: -5px;
+    background: #303030;
+    position: relative;
+    margin: 0 10px;
+}
+
+.span1 {
+    /*отступ разделител€*/
+    -webkit-margin-after: 0.9em;
+    text-align: center;
+}
+
+.text {
+    /*параметры текста в статье*/
+    margin: 0;
+    width: 1000px;
+    text-align: center;
+    display: inline-block;
+    font-family: inherit;
+
+}
+
+.text1 {
+    /*курсив*/
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.img {
+    /*дл€  одной картинки*/
+    margin: 1em 0 0.6em; /* дл€ подписей*/
+
+}
+
+/*.round {
+    /!*круглые кнопки*!/
+    border-radius: 100px; /!* –адиус скруглени€ *!/
+    box-shadow: 0 0 7px #666; /!* ѕараметры тени *!/
+    margin-right: 15px;}*/
+
+.round:hover {
+    /*смена при навидение*/
+    background-color: black;
+}
+
+.wrap {
+    /*центрирует*/
+    text-align: center;
+    min-width: 1000px;
+
+}
+
+.portfolio-item {
+    /*...походу выстраивает картинки в линию*/
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-detail {
+    /*накладывает эффект затимнени€ (возможно анимаци€ тоже сюда)*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(48, 48, 48, 0.6);
+    width: 271px;
+    height: 278px;
+    color: white;
+    display: none;
+    transition-property: background-color;
+    transition-duration: 4s
+
+}
+
+.portfolio-detail h3 {
+    /*позиционирование текста*/
+    margin-top: 100px;
+
+}
+
+.portfolio-item:hover .portfolio-detail {
+    /*при навидение выводит блок*/
+    display: block;
+}
+
+.flowersblc {
+    width: 976px;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flowers {
+    float: left;
+
+}
+
+.lorem {
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+
+}
+
+.flowersh4 {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.button1 {
+
+    text-align: center;
+    background-color: #303030;
+    color: white;
+    border: 0;
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    margin: 20px -300px;
+}
+
+.philosophy {
+    width: 1100px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.layer {
+    float: right;
+    width: 500px;
+    text-align: left;
+
+}
+
+.lorem2 {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.text4 {
+    margin: auto;
+    color: #303030;
+    width: 700px;
+
+}
+
+.span2 {
+    content: '  ';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    top: -3px;
+    background: #303030;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.name {
+    color: red;
+    font-family: sans-serif;
+}
+
+.portfolio-item1 {
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: -2px;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.socset {
+    margin: 35px 0 0;
+}
+
+.wrap {
+    background-color: #141414;
+    width: inherit;
+    height: auto;
+    text-align: center;
+}
+
+.round {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 21px;
+    box-shadow: 0 0 7px #666;
+}
+
+.round1 {
+
+    display: none;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 21px;
+    box-shadow: 0 0 4px red;
+
+}
+
+.soc {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.soc:hover .round {
+
+    display: none;
+
+}
+
+.soc:hover .round1 {
+    display: inline-block;
+}
+
+.ulsocnet {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+
+}
+
+
+.submenumob {
+    /*display: none;*/
+    position: relative;
+    text-align: right;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    /*меню дл€ телефона*/
+    .submenu {
+        display: none;
+    }
+
+    .submenumob {
+        display: block;
+    }
+
+
+}
+
+
+
+.sandwich:active .submenu{
+    list-style-type: disc;
+    display: block;
+}
